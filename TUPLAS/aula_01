@@ -1,0 +1,5 @@
+lanche = 'burg','suco','coca','pudim'
+print(len(lanche))
+
+for c in lanche:
+    print(c)
