@@ -1,5 +1,8 @@
-lanche = 'burg','suco','coca','pudim'
-print(len(lanche))
+lanche = ('burg','suco','coca','pudim','batara')
+# print(len(lanche))
 
-for c in lanche:
-    print(c)
+# for c in lanche:
+#     print(f'Eu irei comer: {c}')
+
+for cont in range(0, len(lanche)):
+    print(f'{lanche[cont]}')
