@@ -1,8 +1,25 @@
-lanche = ('burg','suco','coca','pudim','batara')
-# print(len(lanche))
 
-# for c in lanche:
-#     print(f'Eu irei comer: {c}')
+#Testando Varias possibilidade de tuplas
+
+
+lanche = ('burg','suco','coca','pudim','batara')
+print(len(lanche))
+
+#-----------------------------------------------------------
+
+for c in lanche:
+    print(f'Eu irei comer: {c}')
+
+#----------------------------------------------------------
 
 for cont in range(0, len(lanche)):
     print(f'{lanche[cont]}')
+
+a = ('3','5','2','8','9')
+b = ('10','1','4')
+#-----------------------------------------------------------
+c = a + b
+c = [int(num) for num in c]  # Convertendo para inteiros
+print(sorted(c))
+
+#-----------------------------------------------------------
