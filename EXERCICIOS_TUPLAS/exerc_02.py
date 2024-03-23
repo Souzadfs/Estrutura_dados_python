@@ -4,5 +4,5 @@ camp = ('Palmeiras','Internacional','Santos','Coritiba','São Paulo','Flamengo',
 print(camp[0:4])
 print(camp [-4:])
 print(len(camp))
-
+print(sorted(camp))
 
