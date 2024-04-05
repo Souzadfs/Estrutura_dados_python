@@ -6,7 +6,10 @@ num =  (
 )
 print(num)
 print(f'O número 9 apareceu {num.count(9)} x')
-print(f'O número 3 aprececeu na posição {num.index(3)+1}°')
+if 3 in num:
+    print(f'O número 3 aprececeu na posição {num.index(3)+1}°')
+else:
+    print(f'Valor {3} não foi encontrado')    
 
 for i in num:
     if i % 2 == 0:
